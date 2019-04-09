@@ -8,3 +8,7 @@ Pi is a really big, it takes about 5 hours for this program to calculate 10^6 di
 You really only need the pi_finder.py script and Python installed and you are good to go. Just run it from the command line, give it a string to look for and it'll start searching. You'll need Pytest to run the test cases if you really want to.
 
 ## Test Cases
+This first test only tests that my BBP function accurately generates the first million digits of Pi in hex. This test takes about 5 hours so I wouldn't reccomend running it.
+![mil_digits_test](https://user-images.githubusercontent.com/38610139/55774807-9330b280-5a4b-11e9-9b03-af191cc09793.png)
+
+The other three tests just test the functionality of the program. Converting ints to hex strings, turning the input into its hex string representation, and searching for a given string in Pi.
