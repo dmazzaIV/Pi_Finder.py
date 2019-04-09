@@ -92,7 +92,9 @@ def main():
                 12: 'c', 13: 'd', 14: 'e', 15: 'f'
                 }
 
-    print(find_string('j', hex_dict))
+    target = input('Enter a string to search for in Pi: ')
+    start, end = find_string(target, hex_dict)
+    print(f'{target} is located from {start} to {end} in Pi')
 
 
 main()
